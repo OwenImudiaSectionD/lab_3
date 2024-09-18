@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+}
+h3{
+    background-color: brown;
+    width: 20%;
+}
+form{
+    border: 3px solid;
+    background-color: aliceblue;
+    width: 30%;
+    padding: 5%;
+}
+footer{
+    flex: 20%;
+    background-color: brown;
+ margin-top: 200px;
+border: solid 20px brown;
+}
+.navigation{
+    margin-left: 70%;
+}

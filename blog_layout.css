@@ -1,0 +1,65 @@
+body{
+    background-color: bisque;
+}
+footer{
+    flex: 20%;
+    background-color: brown;
+ margin-top: 200px;
+border: solid 20px brown;
+}
+.Questions{
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:blanchedalmond;
+}
+.navigation{
+    margin-left: 70%;
+    font-size: 16px;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 60px;
+    right: -200px; 
+    background-color: #333;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+#toggleSidebar:checked ~ .sidebar {
+    right: 0;
+}
+
+.toggle-label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    display: block;
+    width: fit-content;
+}
+.main-content {
+    margin-left: 20px;
+    padding: 20px;
+}

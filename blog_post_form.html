@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog post form</title>
+    <link rel="stylesheet" href="blog_post_form.css">
+</head>
+<body>
+    <h3>Enter your Blog information</h3>
+    <form id="form">
+    <p>What is the blog title? <input type="text" name="blogtitle"placeholder="Blog Title"></p>
+    <p>What is the author name? <input type="text" name="authorname"placeholder="Author name"></p>
+    Enter your Contents <textarea name="content" rows="5" cols="20"placeholder="Enter your content"></textarea> 
+    <p>Select the category <select name="category" id="category-select">
+        <option value=""> Please choose an optioin</option>
+        <option value="Music" >Music</option>
+        <option value="Sports" >Sports</option>
+        <option value="Education" >Education</option>
+        <option value="History" >History</option>
+    </select></p>
+    <input type="submit" onclick="alert('Form Submitted!')"value="Submit">
+
+    </form>
+    <footer><div class="navigation" style="width:25%">
+        <a href="blog_layout.html" class="nav">Home</a>
+        <a href="table_of_contents.html" class="nav">Table of Content </a>
+        <a href="blog_post_form.html" class="nav"> Blog post Form</a>
+        <a href="multimedia_blog_post.html" class="nav">Multimedia Post</a>
+      </div></footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+table,th,tr,td{
+    box-shadow: grey 2px 2px 2px 2px;
+    border: 1px ;
+    flex: 10px;
+    padding: 10px;
+}
+body{
+    background-color: beige;
+}
+caption{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(148, 109, 58);
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: blanchedalmond;
+}
+td{
+    background-color: burlywood;
+}
+.navigation{
+    margin-left: 70%;
+}
+footer{
+    flex: 20%;
+    background-color: brown;
+ margin-top: 200px;
+border: solid 20px brown;
+}

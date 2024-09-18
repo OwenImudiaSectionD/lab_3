@@ -1,0 +1,19 @@
+footer{
+    flex: 20%;
+background-color: brown;
+margin-top: 200px;
+border: solid 20px brown;
+}
+body{
+    background-color: blanchedalmond;
+}
+.image1{
+    background-color: azure;
+}
+.embed1{
+    background-color: beige;
+
+}
+.audio1{
+    background-color: rgb(123, 96, 63);
+}
